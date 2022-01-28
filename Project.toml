@@ -1,0 +1,13 @@
+name = "CKAN"
+uuid = "6ddc3f7e-9348-41b2-a00c-999db464b9f8"
+authors = ["Valentin <valentin.lucet@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
