@@ -11,8 +11,10 @@ struct CKANConnection
     url::String
     apiversion::Union{Int,Nothing}
 
-    function CKANConnection(url::String)
-        url = make_api_url(url, "")
+    function CKANConnection(url::String; useversion::Bool=true)
+        if useversion
+            url = make_api_url(url, "")
+        end
         test_url(url) ? new(url, nothing) : error("Invalid url")
     end
 

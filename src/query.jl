@@ -21,10 +21,10 @@ end
 
 Querry an API with the given parameters, for a given CKAN action.
 """
-function querry_api(url::String, action::String, parameters::Pair)
+function querry_api(url::String, action::String, parameters::Pair...)
 
     url *= "action/" * action
-    url *= generate_request_query(parameters)
+    url *= generate_request_query(parameters...)
     
     @info "Querrying API with url $(shorten_url(url))"
     
