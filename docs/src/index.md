@@ -3,5 +3,5 @@
 Documentation for CKANQuerry.jl
 
 ```@autodocs
-Modules: [CKANQuerry]
+Modules = [CKANQuerry]
 ```
