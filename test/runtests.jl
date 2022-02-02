@@ -1,6 +1,6 @@
-using CKAN
+using CKANQuerry
 using Test
 
-@testset "CKAN.jl" begin
+@testset "CKANQuerry.jl" begin
     # Write your tests here.
 end

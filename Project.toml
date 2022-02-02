@@ -1,6 +1,6 @@
-name = "CKAN"
-uuid = "6ddc3f7e-9348-41b2-a00c-999db464b9f8"
-authors = ["Valentin Lucet <valentin.lucet@gmail.com> and contributors"]
+name = "CKANQuerry"
+uuid = "81176281-a5cf-435c-a45d-9b2ff0740fbc"
+authors = ["Valentin <valentin.lucet@gmail.com> and contributors"]
 version = "0.1.0"
 
 [deps]
