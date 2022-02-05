@@ -4,7 +4,7 @@ using CKANQuery
 makedocs(
     sitename = "CKANQuery",
     format = Documenter.HTML(),
-    modules = [CKANQuerry]
+    modules = [CKANQuery]
 )
 
 deploydocs(
