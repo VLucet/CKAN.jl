@@ -1,12 +1,12 @@
 using Documenter
-using CKANQuerry
+using CKANQuery
 
 makedocs(
-    sitename = "CKANQuerry",
+    sitename = "CKANQuery",
     format = Documenter.HTML(),
     modules = [CKANQuerry]
 )
 
 deploydocs(
-    repo = "github.com/VLucet/CKANQuerry.jl"
+    repo = "github.com/VLucet/CKANQuery.jl"
 )
