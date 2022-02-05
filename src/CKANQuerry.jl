@@ -1,7 +1,6 @@
-module CKANQuerry
+module CKANQuery
 
-using HTTP
-using JSON
+using HTTP, JSON
 
 export package_list, package_show, resource_list, resource_show
 export CKANConnection, CKANDataset, CKANResource
